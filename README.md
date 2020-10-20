@@ -75,7 +75,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --use_dataset CUB --instances 3 --lr 0.5e
 
 ​		Similarly, we set ```--use_loss``` to ```semihtriplet```/```n-npair```/```ms``` and ```--instances``` to ```3```/```2```/```5```, for training models with semihard triplet loss / normalized N-pair loss / multi-similarity loss. We set ```--use_dataset``` to ```Cars```/```SOP```/```Inshop```, for training models on other datasets.
 
->📋  The detailed settings of the above hyper-parameters is provided in Appendix 2 of our paper (with two exceptions to the lr settings listed below). 
+>📋  The detailed settings of the above hyper-parameters is provided in Appendix B of our paper (with two exceptions to the lr settings listed below). 
 >
 >(a) multi-similarity loss without SEC/L2-reg on CUB: 1e-5/0.5e-5/0.1@3k, 6k
 >
@@ -91,7 +91,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --use_dataset CUB --instances 3 --lr 0.5e
 >
 >in line 24 of learner.py).
 
->📋  Additionally, to use SEC with EMA method, we need to set ```--norm_momentum <value>```, where norm_momentum denotes $\rho$ in Appendix 4 of our paper.
+>📋  Additionally, to use SEC with EMA method, we need to set ```--norm_momentum <value>```, where norm_momentum denotes $\rho$ in Appendix D of our paper.
 
 ## Testing
 
