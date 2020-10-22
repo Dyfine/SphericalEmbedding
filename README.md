@@ -109,7 +109,7 @@ For other three datasets, the test of NMI, F1, and R@K is conducted during the t
 
 Our model achieves the following performance on CUB200-2011, Cars196, SOP, and In-Shop datasets:
 
-<div align=left><img src="imgs/experiment_results.png" height=70% width=70%/></div>
+<div align=center><img src="imgs/experiment_results.png" height=70% width=70%/></div>
 
 ## Citation
 
