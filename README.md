@@ -1,6 +1,6 @@
 # SphericalEmbedding
 
-This repository is the official implementation of [Deep Metric Learning with Spherical Embedding] on deep metric learning (DML) task. 
+This repository is the official implementation of [Deep Metric Learning with Spherical Embedding](https://arxiv.org/abs/2011.02785) on deep metric learning (DML) task. 
 
 >📋  Training a vanilla triplet loss / semihard triplet loss / normalized N-pair loss (tuplet loss) / multi-similarity loss on CUB200-2011 / Cars196 / SOP / In-Shop datasets.
 
@@ -115,5 +115,9 @@ Our model achieves the following performance on CUB200-2011, Cars196, SOP, and I
 
 If you find this repo useful for your research, please consider citing this paper
 
-    @inproceedings{
+    @article{zhang2020deep,
+      title={Deep Metric Learning with Spherical Embedding},
+      author={Zhang, Dingyi and Li, Yingming and Zhang, Zhongfei},
+      journal={arXiv preprint arXiv:2011.02785},
+      year={2020}
     }
